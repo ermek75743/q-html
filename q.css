@@ -34,4 +34,35 @@
 .disabled:disabled{
     background-color: hsl(0, 3%, 38%);
     border: 1px solid hsl(0, 3%, 38%);
+}.ok{
+    background-color: hsl(var(--hue-ok), 100%);
+    border: 1px solid hsl(var(--hue-ok), 100%);
+}
+.ok:hover{
+    transition: border background-color;
+    transition-duration: 0.3s;
+    border: 1px solid hsl(var(--hue-ok), 100%);
+    background-color: hsl(var(--hue-ok), 100%);
+}
+.ok:active{
+    transition: border background-color;
+    transition-duration: 0.3s;
+    border: 1px solid hsl(var(--hue-ok), 100%, 50%);
+    background-color: hsl(var(--hue-ok), 100%, 50%);
+}
+.notok{
+    background-color: hsl(var(--hue-notok), 100%, 50%);
+    border: 1px solid hsl(var(--hue-notok), 100%, 50%);
+}
+.notok:hover{
+    transition: border background-color;
+    transition-duration: 0.3s;
+    border: 1px solid hsl(var(--hue-notok), 100%, 50%);
+    background-color: hsl(var(--hue-notok), 100%, 50%);
+}
+.notok:active{
+    transition: border background-color;
+    transition-duration: 0.3s;
+    border: 1px solid hsl(var(--hue-notok), 100%, 50%);
+    background-color: hsl(var(--hue-notok), 100%, 50%);
 }
