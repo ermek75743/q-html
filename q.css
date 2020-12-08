@@ -8,3 +8,16 @@
     font-family: 'Roboto', sans-serif;
     transition-duration: 0.3s; 
 }
+.button:hover{
+    transition: border background-color;
+    transition-duration: 0.3s;
+    border: 1px solid hsl(var(--hue-default), 100%);
+    background-color: hsl(var(--hue-default), 100%);
+}
+.Button:active{
+    transition: border background-color;
+    transition-duration: 0.3s;
+    border: 1px solid hsl(var(--hue-default), 100%);
+    background-color: hsl(var(--hue-default), 100%);
+
+}
