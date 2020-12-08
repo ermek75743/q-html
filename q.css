@@ -26,3 +26,8 @@
     font-size: 16px;
     border-radius: 3px;
 }
+.larg{
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 20px;
+}
