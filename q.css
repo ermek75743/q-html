@@ -31,3 +31,7 @@
     border-radius: 5px;
     font-size: 20px;
 }
+.disabled:disabled{
+    background-color: hsl(0, 3%, 38%);
+    border: 1px solid hsl(0, 3%, 38%);
+}
